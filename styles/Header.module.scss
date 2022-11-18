@@ -1,0 +1,18 @@
+.header {
+  padding: 10px 0;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(30 39 90 / 70%),
+    rgb(32 95 98 / 50%)
+  );
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+}
+.header__container {
+  max-width: 1300px;
+  padding: 0 15px;
+  margin: 0 auto;
+  box-sizing: content-box;
+  width: 100%;
+}

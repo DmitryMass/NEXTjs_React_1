@@ -1,0 +1,18 @@
+.footer {
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(32 95 98 / 50%),
+    rgb(30 39 90 / 70%)
+  );
+}
+
+.footer__container {
+  max-width: 1380px;
+  padding: 0 15px;
+  margin: 0 auto;
+  box-sizing: content-box;
+  color: white;
+}

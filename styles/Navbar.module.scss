@@ -1,0 +1,38 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &__links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+}
+
+.link,
+.link__active {
+  font-size: 21px;
+  line-height: 28px;
+  padding: 5px 8px;
+  font-weight: bold;
+  color: rgb(232, 232, 232);
+  transition: all 0.2s ease;
+}
+
+.link__active {
+  transition: all 0.2s ease;
+  color: rgb(0, 255, 60);
+}
+
+.logo {
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: white;
+  border-top-right-radius: 20px;
+  border-right: 3px solid white;
+  border-bottom: 3px solid white;
+  border-bottom-left-radius: 20px;
+  padding: 5px 5px 3px 10px;
+}
